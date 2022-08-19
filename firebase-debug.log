@@ -1,0 +1,30 @@
+[debug] [2022-08-19T14:45:22.794Z] ----------------------------------------------------------------------
+[debug] [2022-08-19T14:45:22.796Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nhach\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2022-08-19T14:45:22.797Z] CLI Version:   11.7.0
+[debug] [2022-08-19T14:45:22.797Z] Platform:      win32
+[debug] [2022-08-19T14:45:22.798Z] Node Version:  v18.5.0
+[debug] [2022-08-19T14:45:22.799Z] Time:          Fri Aug 19 2022 15:45:22 GMT+0100 (Central European Standard Time)
+[debug] [2022-08-19T14:45:22.799Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-19T14:45:22.931Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-19T14:45:22.932Z] > authorizing via signed-in user (nhachelaf99@gmail.com)
+[debug] [2022-08-19T14:45:22.932Z] [iam] checking project tiktok-clone-b8ef0 for permissions ["firebase.projects.get"]
+[debug] [2022-08-19T14:45:22.934Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tiktok-clone-b8ef0:testIamPermissions [none]
+[debug] [2022-08-19T14:45:22.935Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tiktok-clone-b8ef0:testIamPermissions x-goog-quota-user=projects/tiktok-clone-b8ef0
+[debug] [2022-08-19T14:45:22.935Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tiktok-clone-b8ef0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-08-19T14:45:23.723Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tiktok-clone-b8ef0:testIamPermissions 200
+[debug] [2022-08-19T14:45:23.723Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tiktok-clone-b8ef0:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-08-19T14:45:23.725Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0 [none]
+[debug] [2022-08-19T14:45:24.157Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0 200
+[debug] [2022-08-19T14:45:24.157Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0 {"projectId":"tiktok-clone-b8ef0","projectNumber":"532455643895","displayName":"tiktok-clone","name":"projects/tiktok-clone-b8ef0","resources":{"hostingSite":"tiktok-clone-b8ef0","storageBucket":"tiktok-clone-b8ef0.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_f5493867-902d-446f-bbd6-cdb962b756c9"}
+[info] 
+[info] === Serving from 'C:\Users\nhach\Desktop\tiktok-clone\tiktok-clone'...
+[info] 
+[debug] [2022-08-19T14:45:24.163Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/sites 
+[debug] [2022-08-19T14:45:25.170Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/sites 200
+[debug] [2022-08-19T14:45:25.170Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/sites {"sites":[{"name":"projects/tiktok-clone-b8ef0/sites/tiktok-clone-b8ef0","defaultUrl":"https://tiktok-clone-b8ef0.web.app","appId":"1:532455643895:web:03670a6194428670a411f2","type":"DEFAULT_SITE"}]}
+[debug] [2022-08-19T14:45:25.170Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/webApps/1:532455643895:web:03670a6194428670a411f2/config [none]
+[debug] [2022-08-19T14:45:26.286Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/webApps/1:532455643895:web:03670a6194428670a411f2/config 200
+[debug] [2022-08-19T14:45:26.286Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tiktok-clone-b8ef0/webApps/1:532455643895:web:03670a6194428670a411f2/config {"projectId":"tiktok-clone-b8ef0","appId":"1:532455643895:web:03670a6194428670a411f2","storageBucket":"tiktok-clone-b8ef0.appspot.com","locationId":"us-central","apiKey":"AIzaSyBewmACjHpXimCL-Qqc8z_wDmbiNHU5sjA","authDomain":"tiktok-clone-b8ef0.firebaseapp.com","messagingSenderId":"532455643895","measurementId":"G-GXN3TNBK42"}
+[info] i  hosting: Serving hosting files from: build {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mbuild\u001b[22m"}}
+[info] +  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
